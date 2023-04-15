@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/2023/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/2023/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-03-02T02:31:32+01:00</updated><id>http://localhost:4000/2023/feed.xml</id><title type="html">ICLR Blogposts 2023</title><subtitle>Home to the 2023 ICLR Blogposts track
-</subtitle><entry><title type="html">How Do Vision Transformers See Depth in Single Images?</title><link href="http://localhost:4000/2023/blog/2023/visual-cues-monocular-depth-estimation/" rel="alternate" type="text/html" title="How Do Vision Transformers See Depth in Single Images?" /><published>2023-02-20T00:00:00+01:00</published><updated>2023-02-20T00:00:00+01:00</updated><id>http://localhost:4000/2023/blog/2023/visual-cues-monocular-depth-estimation</id><content type="html" xml:base="http://localhost:4000/2023/blog/2023/visual-cues-monocular-depth-estimation/"><![CDATA[<h2 id="introduction">Introduction</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-04-15T05:04:51+02:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">ICLR Blogposts 2023</title><subtitle>Home to the 2023 ICLR Blogposts track
+</subtitle><entry><title type="html">How Do Vision Transformers See Depth in Single Images?</title><link href="http://localhost:4000/blog/2023/visual-cues-monocular-depth-estimation/" rel="alternate" type="text/html" title="How Do Vision Transformers See Depth in Single Images?" /><published>2023-02-20T00:00:00+01:00</published><updated>2023-02-20T00:00:00+01:00</updated><id>http://localhost:4000/blog/2023/visual-cues-monocular-depth-estimation</id><content type="html" xml:base="http://localhost:4000/blog/2023/visual-cues-monocular-depth-estimation/"><![CDATA[<h2 id="introduction">Introduction</h2>
 
 <p>Monocular depth estimation is a task in Computer Vision, where a depth map is estimated from a single input image.
 This differs from approaches like SLAM or Structure-from-Motion, where multiple camera images can be used to estimate the geometry in the scene.
@@ -48,13 +48,13 @@ The presence of a shadow unter the object also appears to have a strong effect o
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/DPT-Architecture.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -93,13 +93,13 @@ This format as a blog post with interactive elements lends itself well to revisi
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/depth_cues_apparent_size.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -151,13 +151,13 @@ The relative distance increase is done in three different manners (<a href="pos-
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/normal.gif" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -169,13 +169,13 @@ The relative distance increase is done in three different manners (<a href="pos-
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/pos_only.gif" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -187,13 +187,13 @@ The relative distance increase is done in three different manners (<a href="pos-
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/scale_only.gif" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 
@@ -210,7 +210,7 @@ The relative distance increase is done in three different manners (<a href="pos-
 
 <div id="pos-vs-scale-data"></div>
 <div class="l-page">
-<iframe src="/2023/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/position_vs_scale_dpt_monodepth.html" frameborder="0" scrolling="no" width="100%" height="500px" margin="auto">
+<iframe src="/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/position_vs_scale_dpt_monodepth.html" frameborder="0" scrolling="no" width="100%" height="500px" margin="auto">
 </iframe>
 </div>
 <div class="caption">
@@ -246,7 +246,7 @@ The horizon line in the predicted depth map is determined by fitting a line alon
 If the predicted horizon line is shifted as expected with the synthetic change of pitch, then the neural network most likely does not just learn an absolute position for the horizon line in the input images.</p>
 
 <div class="l-page" id="pitch-horizon">
-<iframe src="/2023/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/camera_pose_pitch_horizon_plot.html" frameborder="0" scrolling="no" width="100%" height="500px" margin="auto">
+<iframe src="/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/camera_pose_pitch_horizon_plot.html" frameborder="0" scrolling="no" width="100%" height="500px" margin="auto">
 </iframe>
 </div>
 <div class="caption">
@@ -271,7 +271,7 @@ This does not require additional knowledge about the type of object, suggesting 
 <p>Van Dijk and de Croon did a qualitative analysis on how well MonoDepth could detect obstacles that were uncommmon in the KITTI dataset. We compared DPT’s performance on the same task (<a href="#figure_uncommon_obstacle">see Figure 3 below</a>).</p>
 
 <div class="l-page" id="figure_uncommon_obstacle">
-<iframe src="/2023/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/obstacle_recognition_arbitrary_objects_fridge_shadow_comparison.html" frameborder="0" scrolling="no" width="100%" height="400px">
+<iframe src="/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/obstacle_recognition_arbitrary_objects_fridge_shadow_comparison.html" frameborder="0" scrolling="no" width="100%" height="400px">
 </iframe>
 </div>
 <div class="caption">
@@ -287,20 +287,20 @@ You can use the zoom tools (<svg viewBox="0 0 875 1000" class="icon" height="1em
 Here we also look into the DPT’s performance on the same input images (<a href="#figure_car_parts">see Figure 7 below</a>).</p>
 
 <div class="l-page" id="figure_car_parts">
-<iframe src="/2023/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/obstacle_recognition_car_outline_normal+sides+top_bottom+inside.html" frameborder="0" scrolling="no" width="100%" height="670px">
+<iframe src="/assets/html/2023-02-20-visual-cues-monocular-depth-estimation/obstacle_recognition_car_outline_normal+sides+top_bottom+inside.html" frameborder="0" scrolling="no" width="100%" height="670px">
 </iframe>
 </div>
 <figure>
 
   <picture>
     
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary-480.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary-800.webp" />
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary-1400.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary-480.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary-800.webp" />
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary-1400.webp" />
     
 
     <!-- Fallback to the original file -->
-    <img src="/2023/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
+    <img src="/assets/img/2023-02-20-visual-cues-monocular-depth-estimation/car_outline_summary.png" class="img-fluid" width="auto" height="auto" onerror="this.onerror=null; $('.responsive-img-srcset').remove();" />
 
   </picture>
 

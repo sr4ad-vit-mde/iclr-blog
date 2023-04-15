@@ -14,10 +14,10 @@ authors:
     url: "https://www.unibw.de/tas-en/institute/team/peter-jan-mortimer"
     affiliations:
       name: Institute for Autonomous Systems Technology (TAS), Bundeswehr University of Munich
-#  - name: Hans-Joachim Wünsche
-#    url: "https://www.unibw.de/tas-en/institute/team/hans-joachim-wuensche"
-#    affiliations:
-#     name: Institute for Autonomous Systems Technology (TAS), Bundeswehr University of Munich
+  - name: Hans-Joachim Wünsche
+    url: "https://www.unibw.de/tas-en/institute/team/hans-joachim-wuensche"
+    affiliations:
+      name: Institute for Autonomous Systems Technology (TAS), Bundeswehr University of Munich
 
 # must be the exact same name as your blogpost
 bibliography: 2023-02-20-visual-cues-monocular-depth-estimation.bib  

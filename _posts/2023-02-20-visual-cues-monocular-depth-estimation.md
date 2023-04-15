@@ -2,7 +2,7 @@
 layout: distill
 title: How Do Vision Transformers See Depth in Single Images?
 description: Investigating the visual cues that vision transformers use for monocular depth estimation. This is an extension of an analysis originally done for convolutional neural networks.
-date: 2023-02-20
+date: 2023-04-10
 htmlwidgets: true
 
 # Anonymize when submitting
